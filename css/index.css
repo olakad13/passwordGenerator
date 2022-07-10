@@ -79,14 +79,26 @@ p {
 
 @media screen and (max-width: 600px) {
     .wrapper {
-        margin: 5em 1.5em 0;
+        margin: 5rem 1.5rem 0;
     }
     .output-wrapper {
-        margin: 1em 1.5em 0;
+        margin: 1rem 1.5rem 0;
         gap: .5em;
         align-items: center;
     }
     p {
         font-weight: bolder;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .wrapper {
+        align-items: center;
+        text-align: center;
+    }
+    .output-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
