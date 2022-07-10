@@ -12,6 +12,7 @@ function getRandomIndex() {
 }
 console.log(getRandomIndex());
 
+//A function that generates random passoword 
 function randomPassword() {
     let firstPassword = "";
     let secondPassword = "";
